@@ -1,0 +1,9 @@
+[submodule "stm32-api-generator"]
+	path = stm32-api-generator
+	url = https://github.com/Past9/stm32-api-generator
+[submodule "stm32-test"]
+	path = stm32-test
+	url = https://github.com/Past9/stm32-test
+[submodule "svd-expander"]
+	path = svd-expander
+	url = https://github.com/Past9/svd-expander

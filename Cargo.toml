@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "svd-expander",
+    "stm32-api-generator",
+    "stm32-generated-apis/stm32f303-api",
+    "stm32-test",
+] 
