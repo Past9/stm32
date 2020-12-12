@@ -2,4 +2,5 @@
 members = [
     "svd-expander",
     "stm32-api-generator",
+    "stm32-test"
 ] 
