@@ -1,120 +1,120 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug executable 'stm32-api-generator'",
-            "cargo": {
-                "args": [
-                    "build",
-                    "--bin=stm32-api-generator",
-                    "--package=stm32-api-generator"
-                ],
-                "filter": {
-                    "name": "stm32-api-generator",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug unit tests in executable 'stm32-api-generator'",
-            "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--bin=stm32-api-generator",
-                    "--package=stm32-api-generator"
-                ],
-                "filter": {
-                    "name": "stm32-api-generator",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug unit tests in library 'svd-expander'",
-            "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--lib",
-                    "--package=svd-expander"
-                ],
-                "filter": {
-                    "name": "svd-expander",
-                    "kind": "lib"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug executable 'stm32-test'",
-            "cargo": {
-                "args": [
-                    "build",
-                    "--bin=stm32-test",
-                    "--package=stm32-test"
-                ],
-                "filter": {
-                    "name": "stm32-test",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug unit tests in executable 'stm32-test'",
-            "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--bin=stm32-test",
-                    "--package=stm32-test"
-                ],
-                "filter": {
-                    "name": "stm32-test",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug unit tests in library 'stm32f303-api'",
-            "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--lib",
-                    "--package=stm32f303-api"
-                ],
-                "filter": {
-                    "name": "stm32f303-api",
-                    "kind": "lib"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'stm32-api-generator'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=stm32-api-generator",
+          "--package=stm32-api-generator"
+        ],
+        "filter": {
+          "name": "stm32-api-generator",
+          "kind": "bin"
         }
-    ]
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'stm32-api-generator'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=stm32-api-generator",
+          "--package=stm32-api-generator"
+        ],
+        "filter": {
+          "name": "stm32-api-generator",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in library 'svd-expander'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--lib",
+          "--package=svd-expander"
+        ],
+        "filter": {
+          "name": "svd-expander",
+          "kind": "lib"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'stm32-test'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=stm32-test",
+          "--package=stm32-test"
+        ],
+        "filter": {
+          "name": "stm32-test",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'stm32-test'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=stm32-test",
+          "--package=stm32-test"
+        ],
+        "filter": {
+          "name": "stm32-test",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in library 'stm32f303-api'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--lib",
+          "--package=stm32f303-api"
+        ],
+        "filter": {
+          "name": "stm32f303-api",
+          "kind": "lib"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
 }
